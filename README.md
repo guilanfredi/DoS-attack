@@ -21,7 +21,7 @@ cd ns-allinone-3.19/
 ```
 
 Compile o ns-3.19:
-`./build.py --enable-examples --enable-tests`
+```./build.py --enable-examples --enable-tests```
 
 Na pasta ns-3.19, configure e compile usando o waf:
 ```
@@ -30,7 +30,7 @@ cd ns-3.19
 ```
 
 Execute os testes para verificar se a instalação foi feita corretamente.
-`./test.py`
+```./test.py```
 
 ### Executar
 Clone esse repositório ou baixe o arquivo simulacao-DoS.cc e coloque ele na pasta ns-3.19/scratch. Depois compile e execute usando o waf:
@@ -38,3 +38,4 @@ Clone esse repositório ou baixe o arquivo simulacao-DoS.cc e coloque ele na pas
 ./waf build
 ./waf --run simulacao-DoS --vis
 ```
+Por padrão a mitigação do ataque vai estar ligada, caso queira rodar a simulação sem mitigação abra o arquivo e edite a global MITIGATE-DOS false
