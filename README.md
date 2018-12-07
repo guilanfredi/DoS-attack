@@ -38,4 +38,9 @@ Clone esse repositório ou baixe o arquivo simulacao-DoS.cc e coloque ele na pas
 ./waf build
 ./waf --run simulacao-DoS --vis
 ```
-Por padrão a mitigação do ataque vai estar ligada, caso queira rodar a simulação sem mitigação abra o arquivo e edite a global MITIGATE-DOS false
+Por padrão a mitigação do ataque vai estar ligada, caso queira rodar a simulação sem mitigação abra o arquivo e edite a global ´MITIGATE-DoS false´
+
+##### Grupo
+Gabriel Bonassi Zulpo 8921951
+Guilherme Lanfredi Carvalho 8921861
+Lucas dos Santos Lazarini 8082810
