@@ -33,8 +33,8 @@ Execute os testes para verificar se a instalação foi feita corretamente.
 `./test.py`
 
 ### Executar
-Clone esse repositório ou baixe o arquivo .cc e coloque ele na pasta ns-3.19/scratch. Depois compile e execute usando o waf:
+Clone esse repositório ou baixe o arquivo simulacao-DoS.cc e coloque ele na pasta ns-3.19/scratch. Depois compile e execute usando o waf:
 ```
 ./waf build
-./waf --run dos.cc --vis
+./waf --run simulacao-DoS --vis
 ```
